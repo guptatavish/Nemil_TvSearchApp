@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Rubik Doodle Shadow';
+    letter-spacing: 5px;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 25px;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    margin: 25px;
+}
+
+.button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+input:hover {
+    border-color: #f1ff5c;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+input{
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    border-radius: 25px;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.catalog{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+p{
+    margin-top: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+

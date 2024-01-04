@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <link rel="stylesheet" href="TVshowsearchapp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>TV Show Search</h1>
+    </div>
+    <form id="searchForm">
+        <div class="form">
+            <input type="text" placeholder="Tv Show Title" name="query">
+            <!-- adding name is very important here otherwise cannot acces element by using query -->
+            <button class="button">Search</button>
+        </div>
+    </form>
+    <div class="catalog">
+        <div class="element">
+        </div>
+    </div>
+    <script src="TVshowsearchapp.js"></script>
+</body>
+
+</html>
